@@ -6,15 +6,18 @@ var lang = window.navigator.language;
 //change weather params here:
 //units: metric or imperial
 var weatherParams = {
-    'q':'Baarn,Netherlands',
-    'units':'metric',
+    'q':'Vienna,Virginia',
+    'units':'imperial',
     'lang':lang
 };
 
-var feed = 'http://feeds.nos.nl/nosjournaal?format=rss';
+//var feed = 'http://feeds.nos.nl/nosjournaal?format=rss';
 //var feed = 'http://www.nu.nl/feeds/rss/achterklap.rss';
 //var feed = 'http://www.nu.nl/feeds/rss/opmerkelijk.rss';
 //var feed = 'http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml';
+
+//Set up news feed
+var feed = 'http://feeds.bbci.co.uk/news/technology/rss.xml';
 
 // compliments:
 var morning = [
@@ -32,5 +35,5 @@ var afternoon = [
 var evening = [
             'Wow, you look hot!',
             'You look nice!',
-            'Hi, sexy!'
+            //'Hi, sexy!'
         ];

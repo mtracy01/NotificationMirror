@@ -7,6 +7,7 @@ rm -R /var/www/*
 cp index.php	 /var/www/index.php
 cp -R js 	/var/www/js
 cp -R css	/var/www/css
+cp -R font	/var/www/font
 
 #Tell apache2 to restart
 /etc/init.d/apache2 restart	

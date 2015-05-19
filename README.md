@@ -11,3 +11,5 @@ Package to include:
 	Cron script for starting up the interface on boot for raspberry pi
 	shell script for rebuilding and restarting an apache2 server maintaining the mirror
 
+Note:
+	init.sh modifies root directory, so you must run it with sudo (i.e. use the command "sudo init.sh")
